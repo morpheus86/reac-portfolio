@@ -8,6 +8,7 @@ import Portfolio from './Portfolio'
 import Navigation from './stateless/Navigation'
 import Education from './Education'
 import Projects from './Projects'
+import Skills from './Skills'
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path='/portfolio' component={Portfolio}></Route>
           <Route exact path='/education' component={Education}></Route>
           <Route exact path='/projects' component={Projects}></Route>
+          <Route exact path='/skills' component={Skills}></Route>
         </Switch>
       </div>
     );

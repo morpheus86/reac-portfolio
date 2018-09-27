@@ -2,12 +2,16 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
+  margin: 0px auto;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     /* padding-left: 17rem; */
+    margin: 0px auto;
+    text-align: center;
+    /* display: inline-block */ 
   }
 }
 
