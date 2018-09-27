@@ -15,25 +15,25 @@ const Navigation = (props) => {
       <Navbar.Collapse>
         <Nav>
           <LinkContainer to='/about'>
-            <NavItem eventKey={1}>About</NavItem>
+            <NavItem >About</NavItem>
           </LinkContainer>
           <LinkContainer to='/portfolio'>
-            <NavItem eventKey={2}>Portfolio</NavItem>
+            <NavItem>Portfolio</NavItem>
           </LinkContainer>
           <LinkContainer to='/education'>
-            <NavItem eventKey={1}>Education</NavItem>
+            <NavItem >Education</NavItem>
           </LinkContainer>
           <LinkContainer to='/projects'>
-            <NavItem eventKey={1}>Projects</NavItem>
+            <NavItem>Projects</NavItem>
           </LinkContainer>
           <LinkContainer to='/skills'>
-            <NavItem eventKey={1}>Skills</NavItem>
+            <NavItem>Skills</NavItem>
           </LinkContainer>
         </Nav>
         <Nav pullRight>
-          <NavItem eventKey={1} href="#">
-            Contact
-          </NavItem>
+          <LinkContainer to='/administrator'>
+            <NavItem>Administrator</NavItem>
+          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

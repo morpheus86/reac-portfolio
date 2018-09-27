@@ -9,6 +9,7 @@ import Navigation from './stateless/Navigation'
 import Education from './Education'
 import Projects from './Projects'
 import Skills from './Skills'
+import Admin from './Admin'
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path='/education' component={Education}></Route>
           <Route exact path='/projects' component={Projects}></Route>
           <Route exact path='/skills' component={Skills}></Route>
+          <Route exact path='/administrator' component={Admin}></Route>
         </Switch>
       </div>
     );
