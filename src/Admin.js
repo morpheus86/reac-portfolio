@@ -8,7 +8,8 @@ class Admin extends Component {
     this.handleChange = this.handleChange.bind(this);
 
     this.state = {
-      value: ''
+      value: '',
+      passValue: ''
     };
   }
 
@@ -22,6 +23,9 @@ class Admin extends Component {
 
   handleChange(e) {
     this.setState({ value: e.target.value });
+  }
+  handleChangePassword = (e) => {
+    this.setState({ passValue: e.target.value })
   }
 
   render() {
@@ -37,31 +41,24 @@ class Admin extends Component {
               <FormControl
                 type="text"
                 value={this.state.value}
-                placeholder="Enter text"
+                placeholder="Enter Email"
                 onChange={this.handleChange}
               />
               <FormControl.Feedback />
 
-            </FormGroup>
-          </form>
-        </div>
-        <div>
-          <form>
-            <FormGroup
-              controlId="formBasicText"
-              validationState={this.getValidationState()}
-            >
               <ControlLabel>Password</ControlLabel>
               <FormControl
                 type="text"
-                value={this.state.value}
+                value={this.state.passValue}
                 placeholder="Enter Your Password"
-                onChange={this.handleChange}
+                onChange={this.handleChangePassword}
               />
               <FormControl.Feedback />
             </FormGroup>
           </form>
         </div>
+
+
       </div>
     );
   }
