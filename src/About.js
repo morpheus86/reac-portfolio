@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
           <div className="my-auto">
             <h1 className="mb-0">Hamadou Tidiane
@@ -30,6 +30,7 @@ class About extends Component {
           </div>
         </section>
       </div>
+
     );
   }
 }

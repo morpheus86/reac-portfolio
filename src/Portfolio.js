@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Portfolio extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
           <div className="my-auto">
             <h2 className="mb-5">Employment Experience</h2>
@@ -11,7 +11,7 @@ class Portfolio extends Component {
               <div className="resume-content mr-auto">
                 <h3 className="mb-0">Personal Trainer</h3>
                 <div className="subheading mb-3">YMCA</div>
-                <p>I bring a believe in yourself attitude and ensure client confidence by
+                <p className="lead mb-5">I bring a believe in yourself attitude and ensure client confidence by
                   designing individual fitness plans that cater to client interests and strengths. Client priority was
                   always
                   met
@@ -26,7 +26,7 @@ class Portfolio extends Component {
               <div className="resume-content mr-auto">
                 <h3 className="mb-0">Senior Sales Associate</h3>
                 <div className="subheading mb-3">Travelex Worldwide Money</div>
-                <p>Primary customer service associate in the store at one of the busiest money transfer agency in the
+                <p className="lead mb-5">Primary customer service associate in the store at one of the busiest money transfer agency in the
                   world.
                   Complete all day end procedures and maintain customer files. Identify the warning signs of questionable
                   transactions and mitigate
@@ -44,7 +44,7 @@ class Portfolio extends Component {
               <div className="resume-content mr-auto">
                 <h3 className="mb-0">Language Lab Assistant</h3>
                 <div className="subheading mb-3">Brooklyn College</div>
-                <p>Provide explanation and direction to struggling student.Assisted students with course instruction in
+                <p className="lead mb-5">Provide explanation and direction to struggling student.Assisted students with course instruction in
                   language practices.</p>
               </div>
               <div className="resume-date text-md-right">

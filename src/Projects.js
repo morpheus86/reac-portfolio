@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
           <h3 className="my-auto">
           </h3><h2 className="mb-5">Projects</h2>
           <h3 className="subheading mb-3">FinTrack</h3>
-          <p>
+          <p className="lead mb-5">
             Progressive web application that keeps tracks of all your daily expenses and suggest ways to save according
             to your spending habit.
         </p><li><i className="fa-li fa fa-check" />
@@ -21,7 +21,7 @@ class Projects extends Component {
           display the desirable information to our user</li>
           <p />
           <h3 className="subheading mb-3">ChatLiner</h3>
-          <p>
+          <p className="lead mb-5">
             Beta chat based mobile application that creates private channels.
         </p><li><i className="fa-li fa fa-check" />
             Implemented both back-end and front-end using a NodeJs, PSQL, SQL and Sequelize library
@@ -31,7 +31,7 @@ class Projects extends Component {
         </li>
           <p />
           <h3 className="subheading mb-3">GraceStarShopper</h3>
-          <p>
+          <p className="lead mb-5">
             An e-commerce based website that sells different stars from the universe
         </p><li><i className="fa-li fa fa-check" />
             Work on implementing the database using NdeJs, PostgreSQL, sequelize
