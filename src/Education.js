@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
+import posed from 'react-pose'
+import { Item } from './stateless/Navigation';
 
-class Education extends Component {
-  render() {
-    return (
+const Education = posed.ul({
+  enter: { staggerChildren: 50 },
+  exit: { staggerChildren: 20, staggerDirection: -1 }
+});
+
+
+export default () => (
+  <Education>
+    <Item>
       <div className="container">
         <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
           <div className="my-auto">
@@ -34,8 +42,6 @@ class Education extends Component {
           </div>
         </section>
       </div>
-    );
-  }
-}
-
-export default Education;
+    </Item>
+  </Education>
+);

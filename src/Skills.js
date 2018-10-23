@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
+import posed from 'react-pose'
+import { Item } from './stateless/Navigation'
 
-class Skills extends Component {
-  render() {
-    return (
+const Skills = posed.div({
+  enter: { staggerChildren: 50 },
+  exit: { staggerChildren: 20, staggerDirection: -1 }
+});
+
+
+export default () => (
+  <Skills>
+    <Item>
       <div className="container">
         <div className="box">
           <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
@@ -70,8 +78,6 @@ class Skills extends Component {
           </section>
         </div>
       </div>
-    );
-  }
-}
-
-export default Skills;
+    </Item>
+  </Skills>
+);
