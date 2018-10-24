@@ -1,7 +1,7 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #061f38;
   margin: 0px auto;
   background-color: rgb(202, 209, 210);
 }
@@ -30,13 +30,6 @@ body .pic {
   justify-content: center;
   flex-wrap: wrap;
 }
-/* .pic {
-  background-image: url(./img/kid.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  */
-/* } */
 
 h1,
 h2,

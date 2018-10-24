@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import posed from 'react-pose';
 import { Item } from './stateless/Navigation';
 
-const Projects = posed.ul({
+const Projects = posed.div({
   enter: { staggerChildren: 50 },
   exit: { staggerChildren: 20, staggerDirection: -1 }
 });

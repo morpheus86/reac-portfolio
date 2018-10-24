@@ -18,14 +18,14 @@ export default () => (
           <div className="subheading mb-5"> Brooklyn, NY 11210 · (646) 597-0360 ·
             <a href="hamadou_diallo@yahoo.com">hamadou_diallo@yahoo.com</a>
           </div>
-          <P>
-            I am a junior web developer who recently graduated from Full Stack Academy of Code,
-              one of the most prestigious coding schools in the greater New York area. I specialize in building full stack
-              web applications
-              with a focus on front-end. Aside from developing scalable web and mobile apps, I am a personal trainer,
-              an avid learner
-              of new technologies, and a fine food lover.
-            On my free time, I enjoy working out, playing soccer, basketball and socializing with friends and family.
+          <P className="lead mb-5">
+            My story is similar but at the same time quite different to a lot of the immigrant that lives in New York.
+            Searching for a better future while striving to challenge myself and helping contribute to a better community both socially and physically. I became a software Engineer in order to contribute in the advancement of my community and at the same time be around mind like people. I graduated from Full Stack Academy of Code,
+              one of the most prestigious coding schools in the greater New York area. I feel very comfortable and happy designing and analyzing algorithms as well as learning new technologies and working with the tools of different technologies i have acquired. I specialize in building full stack
+              web applications through NERD stack (Node, Express, React, React-Redux and database). Aside from developing scalable web and mobile apps, I am also a personal trainer, I am very passionate about what i do which make me give my best and  be the best in anything i put my mind to.
+              I am an avid learner
+              of new technologies, a fine food lover.
+            On my free time I like to compete playing soccer, basketball and socializing with friends and family trying not to think about code.
           </P>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/tidianediallo1986/">

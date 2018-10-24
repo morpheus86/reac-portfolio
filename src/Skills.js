@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import posed from 'react-pose'
 import { Item } from './stateless/Navigation'
 
