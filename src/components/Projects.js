@@ -19,7 +19,7 @@ const infoProject = projectInfo.map(p => {
       work = p["work"];
       link = p["link"];
       return (
-        <div>
+        <div key={title}>
           <h3 className="subheading mb-3">{title}</h3>
           <p className="lead mb-5">{desc}</p>
           <li>
@@ -46,7 +46,6 @@ export default () => (
           className="resume-section p-3 p-lg-5 d-flex flex-column"
           id="projects"
         >
-          <h3 className="my-auto"></h3>
           <h2 className="mb-5">Projects</h2>
           {infoProject}
         </section>
