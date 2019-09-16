@@ -1,6 +1,6 @@
 import React from "react";
 import posed from "react-pose";
-import { Item } from "./stateless/Navigation";
+import { Item } from "../stateless/Navigation";
 
 const Portfolio = posed.div({
   enter: { staggerChildren: 50 },

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { P } from "./stateless/Navigation";
+import { P } from "../stateless/Navigation";
 class Home extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class Home extends Component {
           <div>
             <header className="Hamadou Tidiane Diallo Portfolio"></header>
             <P>
-              <img alt="kid-pic" src={require("./img/kid.jpg")} />
+              <img alt="kid-pic" src={require("../img/kid.jpg")} />
             </P>
             <h1 className="App-title">Welcome To Hamadou Diallo Homepage</h1>
           </div>

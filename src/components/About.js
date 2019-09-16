@@ -1,7 +1,7 @@
 import React from "react";
 import posed from "react-pose";
-import { P } from "./stateless/Navigation";
-import { info } from "./data/infoAbout";
+import { P } from "../stateless/Navigation";
+import { info } from "../data/infoAbout";
 const About = posed.div({
   enter: { staggerChildren: 50 }
 });
@@ -18,7 +18,7 @@ export default () => (
           <div className="subheading mb-5">
             {" "}
             Brooklyn, NY 11210 · (646) 597-0360
-            <a href="hamadou_diallo@yahoo.com"> hamadou_diallo@yahoo.com</a>
+            <span> hamadou_diallo@yahoo.com</span>
             <hr />
           </div>
           <P className="lead mb-5">{info.about}</P>

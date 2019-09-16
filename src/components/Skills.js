@@ -1,6 +1,6 @@
 import React from "react";
 import posed from "react-pose";
-import { Item } from "./stateless/Navigation";
+import { Item } from "../stateless/Navigation";
 
 const Skills = posed.div({
   enter: { staggerChildren: 50 },

@@ -1,7 +1,7 @@
 import React from "react";
 import posed from "react-pose";
-import { Item } from "./stateless/Navigation";
-import { projectInfo } from "./data/infoAbout";
+import { Item } from "../stateless/Navigation";
+import { projectInfo } from "../data/infoAbout";
 
 const Projects = posed.div({
   enter: { staggerChildren: 50 },
@@ -12,10 +12,12 @@ const infoProject = projectInfo.map(p => {
     let desc;
     let title;
     let work;
-    if (prop !== "work") {
+    let link;
+    if (prop !== "work" && prop !== "link") {
       title = prop;
       desc = p[prop];
       work = p["work"];
+      link = p["link"];
       return (
         <div>
           <h3 className="subheading mb-3">{title}</h3>
@@ -25,6 +27,11 @@ const infoProject = projectInfo.map(p => {
             {work}
           </li>
           <p />
+          <p>
+            you can view this app or the code for this app by clicking on this
+            Link:
+            <a href={link}>{title} app</a>
+          </p>
         </div>
       );
     }
