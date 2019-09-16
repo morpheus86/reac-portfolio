@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
-import { P } from './stateless/Navigation'
+import React, { Component } from "react";
+import { P } from "./stateless/Navigation";
 class Home extends Component {
   render() {
     return (
       <div>
         <div className="App">
           <div>
-            <header className="Hamadou Tidiane Diallo Portfolio">
-            </header>
+            <header className="Hamadou Tidiane Diallo Portfolio"></header>
             <P>
-              <img alt='kid-pic' src={require('./img/kid.jpg')} />
-              <li className='desc'>
-                Li'l Tidiane
-              </li>
+              <img alt="kid-pic" src={require("./img/kid.jpg")} />
             </P>
             <h1 className="App-title">Welcome To Hamadou Diallo Homepage</h1>
           </div>
